@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+body {
+    background-color: #FFFAF7;
+    font-family: Inter, sans-serif;
+    padding-bottom: 13%;
+    position: absolute;
+}
+
+/* Nagivation Header */
+.nav-bar {
+    background: #333C6A;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    height: 5vw;
+
+}
+
+.wrapper {
+    max-width: 1163px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 5vw;
+}
+
+nav ul {
+    display: flex;
+}
+
+.home {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1vw;
+    color: #FFFAF7;
+    text-decoration: none;
+}
+
+a {
+    font-family: Inter;
+    color: #FFFAF7;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(255, 250, 247, 0.67);
+}
+
+a:visited {
+    color: #FFFAF7;
+    text-decoration: none;
+}
+
+
+.nav-items li {
+    list-style: none;
+    margin-right: 3vw;
+}
+
+.nav-items li:last-of-type {
+    margin-right: 9.7vw;
+}
+
+
+.nav-items li a {
+    font-family: Inter;
+    color: #FFFAF7;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.nav-items li a:hover {
+    color: rgba(255, 250, 247, 0.67);
+}
+
+
+
+/* Left Container */
+
+.left-container {
+    float: right;
+    width: 35%;
+    padding: 2% 6% 10% 3%;
+    background-color: #495699;
+    border: #495699;
+    text-align: left;
+    position: relative;
+
+    font-family: Inter;
+    color:#FFFAF7
+}
+
+.top h1 {
+    font-family: Inter;
+    font-size: 2.5vw;
+    font-weight: 600;
+    color: #FFFAF7;
+    text-decoration: none;
+}
+
+
+.side-text h2 {
+    font-family: Inter;
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: #FFFAF7;
+    text-decoration: none;
+    line-height: 100%;
+    margin-top: 3%;
+}
+
+.side-text h3 {
+    font-family: Inter;
+    font-size: 1vw;
+    font-weight: 600;
+    color: #FFFAF7;
+    text-decoration: none;
+    line-height: normal;
+    margin-top: 5%;
+}
+
+
+.side-text p {
+    font-family: Inter;
+    font-size: 0.9vw;
+    font-weight: 400;
+    font-style: italic;
+    color: #FFFAF7;
+    text-decoration: none;
+    line-height: normal;
+    margin-top: 1%;
+}
+
+.link-buttons {
+    margin-top: 5%;
+}
+
+
+.link-buttons a {
+    border: 1vw #D83E58;
+    border-radius: 2vw;
+    background-color: #D83E58;
+    padding: 3% 8% 3% 8%;
+
+    font-family: Inter;
+    font-size: 1vw;
+    font-weight: 600;
+    color:#FFFAF7;
+    text-decoration: none;
+}
+
+.link-buttons a:hover {
+    text-decoration: none;
+    background: rgba(161, 32, 54, 0.69);
+}
+
+.computer {
+    width: 15vw;
+    position: absolute;
+    bottom: 4%;
+    right: 12%;
+}
+
+
+
+/* Right Container */
+
+.right-container {
+    float: left;
+    width: 60%;
+    padding: 5% 3% 3% 10%; 
+
+    font-family: Inter;
+}
+
+.headshot {
+    border-radius: 20vw;
+    border: 0.6vw solid #333C6A;
+    width: 12vw;
+    margin-bottom: 5%;
+}
+
+.right-container h1 {
+    font-family: Inter;
+    font-size: 2vw;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 100%;
+    color: #D83E58;
+}
+
+.right-container h3 {
+    font-family: Inter;
+    font-size: 1.5vw;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 100%;
+    color: #D83E58;
+    margin-top: 1%;
+}
+
+.right-container p {
+    font-family: Inter;
+    font-size: 1vw;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: normal;
+    margin-top: 1%;
+    color: #333333
+}
+
+span {
+    font-family: Inter;
+    font-size: 1vw;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: normal;
+}
+
+
+.right-container ul {
+    display: flex;
+}
+
+.right-container li {
+    list-style: none;
+    margin: 6% 3% 0% -6%;
+}
+
+.right-container li:last-of-type {
+    margin-left: 3%;
+}
+
+.right-container li a {
+    font-family: Inter;
+    font-size: 1.5vw;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 100%;
+    color: #D83E58;
+}
+
+.right-container li a:hover {
+    color: #B81C36;
+}
+
+
+/* Footer */
+
+footer {
+    width: 100%;
+    background: #333C6A;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    height: 13vw;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-text {
+    padding: 3% 3% 0% 10%; 
+    color: #FFFAF7;
+    font-family: Inter;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer-text h1 {
+    color: #FFFAF7;
+    font-family: Inter;
+    font-size: 2vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer-text ul {
+    display: flex;
+    margin-top: 1%;
+}
+
+.footer-buttons li {
+    list-style: none;
+    margin-right: 1.5%;
+
+    border: 1vw #D83E58;
+    border-radius: 2vw;
+    background-color: #D83E58;
+    padding: 1% 2.5% 1% 2.5%;
+
+    font-family: Inter;
+    font-size: 1vw;
+    font-weight: 600;
+    color:#FFFAF7;
+    text-decoration: none;
+}
+
+.footer-buttons li a:hover {
+    text-decoration: none;
+}
+
+.footer-buttons li:hover {
+    background: rgba(161, 32, 54, 0.69);
+}
+
+.footer-buttons li:first-of-type {
+    margin-left: -3.5%;
+}
+
+
+
+
+/* Pages */
+
+.projects {
+    padding: 5% 15% 0% 10%;
+    font-family: Inter;
+}
+
+.projects h1 {
+    color: #333C6A;
+    font-family: Inter;
+    font-size: 2.5vw;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: normal;
+
+}
+
+
+.projects h4 {
+    color: #888;
+    font-family: Inter;
+    font-size: 1.2vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 3%;
+}
+
+
+.text h2:first-of-type {
+    font-family: Inter;
+    font-size: 1.3vw;
+    font-weight: 600;
+    color: #D83E58;
+    text-decoration: none;
+    margin-top: 2%;
+}
+
+.text h3 {
+    color: #333;
+    font-family: Inter;
+    font-size: 1vw;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: none;
+    line-height: 150%;
+}
+
+.normal {
+    font-family: Inter;
+    font-size: 1vw;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.bold {
+    font-family: Inter;
+    font-size: 1vw;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.text p {
+    color: #333;
+    font-family: Inter;
+    font-size: 1vw;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: normal;
+    margin: 2% 3% 5% 2%;
+}
+
+
+.skills {
+    display: flex;
+    margin: 1% -3.5%;
+}
+
+.skills li {
+    list-style: none;
+    margin-right: 1%;
+
+    border: 1vw #80965C;
+    border-radius: 2vw;
+    background-color: #80965C;
+    padding: 0.5% 1.5% 0.5% 1.5%;
+
+    font-family: Inter;
+    font-size: 0.8vw;
+    font-weight: 600;
+    color:#FFFAF7;
+    text-decoration: none;
+}
+
+.technical-skills {
+    padding: 0% 9.5% 5%;
+    font-family: Inter;
+}
+
+.technical-skills h1 {
+    color:#333C6A;
+    font-family: Inter;
+    font-size: 2.5vw;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 200%;
+}
+
+.technical-skills h2 {
+    font-family: Inter;
+    font-size: 1.3vw;
+    font-weight: 600;
+    color: #D83E58;    
+    text-decoration: none;
+    line-height: 150%;
+    margin-left: 0.5%;
+}
+
+.technical-skills .skills {
+    margin-left: -3.5%;
+}
+
+.computer-2 {
+    width: 15vw;
+    position: absolute;
+    bottom: 9%;
+    right: 17%;
+}
+
+embed { 
+    margin-top: 1%; 
+    width: 100%;  
+    height: 500px; 
+}
+
+iframe {
+    margin-top: 1%;
+}
+
+video {
+    margin-top: 1%;
+    width: 100%;
+    height: 500px;
+}
+
+.embed {
+    text-align: left;
+}
+
+
+/* Design */
+
+/* wise */
+
+.images {
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.column {
+    flex: 50%;
+}
+
+.row {
+    text-align: center;
+}
+
+
+.top {
+    width: 50%;
+    padding: 1%;
+
+}
+
+.bottom {
+    width: 95%;
+    padding: 1%;
+    margin: auto;
+
+}
+
+.box {
+    width: 50%;
+    padding: 1%;
+
+}
+
+
+
+/* P&CC */
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.paper {
+    flex: 20%;
+    padding: 1%;
+    width: 20%;
+}
+
+
+
+
+
