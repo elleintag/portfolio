@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Circles Refer a Youth</title>
+        <link rel="stylesheet" href="refer-a-youth.css"/>
+        <link rel="stylesheet" href="nav-footer.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <!-- Navagation Bar -->
+        <div class="nav-bar">
+            <nav>
+                <div class="header">
+                    <a href="home.html"><img class="circles-logo-color" src="Circles Logo.png" alt= "Circles Logo"></a>
+                    <a href="donate.html" class="donate-b1">Donate</a>
+                </div>
+
+                <!-- Navagation Links -->
+                <ul class="nav-items">
+                    <li><a href="mentoring.html">Mentoring</a></li>
+                    <li><a href="refer-a-youth.html">Refer a Youth</a></li>
+                    <li><a href="join-team.html">Join the Team</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="nav-bar-small">
+            <a href="home.html" class="active"><img class="circles-logo-color" src="Circles Logo.png" alt= "Circles Logo"></a>
+
+            <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">
+                    <img class="nav-icon" src="nav-icon.png" alt="navigation icon">
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                  <a href="mentoring.html">Mentoring</a>
+                  <a href="refer-a-youth.html">Refer a Youth</a>
+                  <a href="join-team.html">Join the Team</a>
+                  <a href="donate.html"><span>Donate</span></a>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+        </script>
+
+
+
+        <div class="container-1">
+            <div class="hero-image">
+                <div class="hero-text">
+                    <h1>Refer a Youth</h1>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-2">
+            <div class="text">
+                <h1>Want to refer a youth?</h1>
+                <p>Want to refer a youth? Please email <span>circles@yugta.ca</span> to begin the process. A Circles staff member will contact you within 48 hours to learn more about the young person and what types of mentors would fit best with them.</p>
+                <br>
+                <h2>Frequently Asked Questions</h2>
+            </div>
+
+            <div class="faq">
+                <button class="accordion">Who can be in Circles?</button>
+                <div class="panel">
+                    <p>Circles mentoring program is for youth ages 10-16 who live in the Greater Toronto Area and who are currently involved in the foster care system in Ontario. Circles is open to any youth in kinship service or care agreements, or who are in the legal custody of a foster family. Because Circles is specifically focused on supporting youth through the aging out process, youth who are legally adopted, or are in the adoption process, would not be a match.</p>
+                </div>
+                <button class="accordion">Who can refer a youth to Circles?</button>
+                <div class="panel">
+                    <p>Any caring adult in a young person’s life can refer them: social workers, coaches, relatives, therapists, foster parents, and other caregivers. If the youth is currently involved in any other mentoring programs, such as Big Brother Big Sister, they would not be a match for the Circles program. Our goal is to serve youth who are not already benefiting from a mentoring relationship.</p>
+                </div>
+                <button class="accordion">How long can a young person be in Circles?</button>
+                <div class="panel">
+                    <p>Circles exists to provide supportive and stable community for youth in foster care, particularly during and beyond the aging out process. As such, Circles is not designed to be a short term mentoring program and once a youth is part of Circles, there is no age cut off or time limit. Our goal is that the youth will be supported by a mentor team for as long as he or she desires. If a mentor has to step away from the team for any reason, we facilitate a healthy goodbye and welcome a new mentor to the team.</p>
+                </div>
+                <button class="accordion">What does Circles involve?</button>
+                <div class="panel">
+                    <p>Every young person is matched with a team of three adult mentors who commit to spending 1-2 hours a week together doing things they all enjoy, like playing a sport, doing crafts, or exploring a new neighbourhood. Whether in person or online, there will always be at least two adults present with a young person. The time mentors spend with their youth is about fun and friendship - our volunteers are not tutors or therapists. If the youth would like to work towards a specific goal with their mentors they are encouraged to do so, keeping in mind the emphasis of Circles is on relationship and not performance.</p>
+                </div>
+                <button class="accordion">How will a young person be matched and how long will it take?</button>
+                <div class="panel">
+                    <p>When a young person is referred to Circles, we will meet with them to find out more about their personality and interests so we can match them with the best team possible. Our matching process can take awhile (several weeks or more, depending on our pool of mentors), because we are trying to lay the foundation for long-term relationships and support. When a young person is referred, we will let you and them know how soon we expect to have mentors available, and we will keep you updated.</p>
+                </div>
+                <button class="accordion">What is the cost?</button>
+                <div class="panel">
+                    <p>There is no cost for Circles. We encourage all our teams to choose activities that are low or no cost, and any special activities that do have a cost are covered by Circles.</p>
+                </div>
+                <button class="accordion">Who are the volunteers?</button>
+                <div class="panel">
+                    <p>All Circles mentors are volunteers who have been screened, trained, and have passed a vulnerable sector check. All of our mentors come from a wide variety of church communities and faith traditions, but there is no requirement or expectation that any youth gold to any faith or partake in any religious expression or activity.</p>
+                </div>
+            </div>
+
+            <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+                
+                for (i = 0; i < acc.length; i++) {
+                  acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                      panel.style.display = "none";
+                    } else {
+                      panel.style.display = "block";
+                    }
+                  });
+                }
+            </script>
+
+            <div class="bottom">
+                <a href="" class="contact-b">Contact Us</a>
+                <p>Have more questions? We can <span>help</span>.</p>
+            </div>
+        </div>
+
+
+        <div class="container-3">
+            <p>Interested in learning more? Redirect copy to primary focus CTA Button.</p>
+        </div>
+
+
+        <footer class="web">
+            <div class="footer-web">
+                <div class="footer-left">
+                    <img class="circles-logo-b" src="Circles Logo 2.png" alt="Circles Logo B">
+                    <p><span>416.123.4567</span><br><span>circles@yugta.ca</span</p>
+                    <p>Have more questions? We can <span>help</span>.</p>
+                </div>
+    
+                <div class="footer-right">
+                    <a href="donate.html" class="donate-b2">Donate</a>
+                    <p>Copyright © 2023 | Youth Unlimited™</p>
+                </div>
+            </div>
+
+            <div class="footer-small">
+                <a href="donate.html" class="donate-b2">Donate</a>
+                <p>Have more questions? We can <span>help</span>.</p>
+                <p><span>(416)383-1477 ext.7224</span><br><span>circles@yugta.ca</span></p>
+                <img class="circles-logo-simple" src="circles logo icon.png" alt="Circles Logo">
+                <p>Copyright © 2023 | Youth Unlimited™</p>
+
+            </div>
+        </footer>
+    </body>
+</html>

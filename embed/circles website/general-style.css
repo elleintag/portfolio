@@ -1,0 +1,12 @@
+@import url('https://fonts.google.com/specimen/Inter?query=inter');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #FFFAF7;
+    font-family: "Inter", sans-serif;
+}
+
