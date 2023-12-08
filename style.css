@@ -370,7 +370,8 @@ footer {
     font-weight: 400;
     font-style: italic;
     text-decoration: none;
-    line-height: 150%;
+    line-height: normal;
+    margin-top: 2%;
 }
 
 .normal {
